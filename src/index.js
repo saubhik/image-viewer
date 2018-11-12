@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import './common/common.css';
+// import 'typeface-roboto'
+import Login from './screens/login/Login';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <span>
-        Image Viewer
-    </span>, 
+    <Login />, 
     document.getElementById('root')
 );
 
