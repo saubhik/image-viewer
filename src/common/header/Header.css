@@ -10,3 +10,9 @@
 .app-header-text {
     padding: 20px;
 }
+
+.user-profile-icon {
+    float: right;
+    height: 50px;
+    width: 50px;
+}

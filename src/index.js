@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import './common/common.css';
 // import 'typeface-roboto'
-import Login from './screens/login/Login';
+// import Login from './screens/login/Login';
+import Header from './common/header/Header';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <Login />, 
+    <Header />, 
     document.getElementById('root')
 );
 
